@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1512px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+nav {
+    margin-top: 60px;
+    margin-bottom: 135px;
+}
+
+.ul > li {
+    list-style: none;
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ul > li > a {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 137px;
+}
+
+.content {
+    max-width: 762px;
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 77px;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.info {
+    font-weight: 500;
+    font-size: 29px;
+    color: #6B6868;
+    margin-bottom: 70px;
+    font-family: sans-serif;
+    line-height: 45px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn-hire {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 20px 45px;
+    margin-right: 35px;
+}
+
+.btn-see {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 25px 40px;
+    font-size: 32px;
+}
+
+
+.photo {
+    width: 480px;
+    height: 576px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 225px;
+    border: solid 5px black;
+}
+
+
